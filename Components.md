@@ -14,6 +14,7 @@ The best option I have found is the following device: [150Mbps USB WiFi Wireless
 ### Proto HAT Shield for Raspberry Pi
 Since we will have to connect many things to the Raspberry GPIO's such a shield will allow us to create some nice connectors for ribbon cables. It is not absolutely necessary - the wires can be connected to the GPIO header but it looks much nicer.
 [DIY Proto HAT Shield for Raspberry Pi 2 Model B / B+ / A+](http://www.aliexpress.com/item/DIY-Proto-HAT-Shield-for-Raspberry-Pi-2-Model-B-B-A-Red-free-shipping/32593336989.html) This comes with everything you need for less than 4$ from AliExpress. I think on eBay they are for sale as well.
+![Proto Hat](https://github.com/thk4711/raspiradio/blob/master/Images/protohat.jpg)
 
 ### 16 Bit I2C 4 Channel ADS1115 AD converter
 The Yamaha HiFi tuner case I am using has a front panel with many switches. They are divided in 3 groups. All switches are connected over a resistor and pull the connection to ground on each crossing. With that you can create a voltage divider which delivers a different voltage for every switch you press. Unfortunately the Raspberry Pi does not come with a AD converter, we need to add an external unit. The ADS1115 is a chip which can be talked to using I2C. There are my little bord available on eBay like this one: [16 Bit I2C 4 Channel ADS1115](http://www.ebay.com/itm/For-Arduino-ADS1115-Module-4-Channel-16-Bit-I2C-ADC-With-Pro-Gain-Amplifier-/221980694555?hash=item33af14981b:g:15QAAOSwT~9WlHfX) - will be less that 3$
