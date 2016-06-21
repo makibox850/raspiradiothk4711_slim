@@ -19,7 +19,8 @@ Since we will have to connect many things to the Raspberry GPIO's such a shield 
 ### 16 Bit I2C 4 Channel ADS1115 AD converter
 The Yamaha HiFi tuner case I am using has a front panel with many switches. They are divided in 3 groups. All switches are connected over a resistor and pull the connection to ground on each crossing. With that you can create a voltage divider which delivers a different voltage for every switch you press. Unfortunately the Raspberry Pi does not come with a AD converter, we need to add an external unit. The ADS1115 is a chip which can be talked to using I2C. There are my little bord available on eBay like this one: [16 Bit I2C 4 Channel ADS1115](http://www.ebay.com/itm/For-Arduino-ADS1115-Module-4-Channel-16-Bit-I2C-ADC-With-Pro-Gain-Amplifier-/221980694555?hash=item33af14981b:g:15QAAOSwT~9WlHfX) - will be less that 3$
 If you are not planning to use a case like I did you might not need this.
-[https://github.com/thk4711/raspiradio/blob/master/Images/ads1115.jpg](ADS1115)
+![ADS1115](https://github.com/thk4711/raspiradio/blob/master/Images/ads1115.jpg)
 
 ### IR Receiver
 If you want to use a IR Remote you need a IR reviver. Just look at ebay for something like this: [ IR Receiver Module 38 kHz TSOP4838 ](http://www.ebay.com/itm/IR-Receiver-Infrared-Radiation-Module-38-kHz-Remote-TSOP4838-DIP-3-/222087090405?hash=item33b56c10e5:g:kFgAAOSwD0lUcF9g) 
+![IR](https://github.com/thk4711/raspiradio/blob/master/Images/ir-receiver.jpg)
