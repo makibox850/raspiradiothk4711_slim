@@ -25,6 +25,15 @@ If you are not planning to use a case like I did you might not need this.
 If you want to use a IR Remote you need a IR reviver. Just look at eBay for something like this: [ IR Receiver Module 38 kHz TSOP4838 ](http://www.ebay.com/itm/IR-Receiver-Infrared-Radiation-Module-38-kHz-Remote-TSOP4838-DIP-3-/222087090405?hash=item33b56c10e5:g:kFgAAOSwD0lUcF9g) 
 ![IR](https://github.com/thk4711/raspiradio/blob/master/Images/ir-receiver.jpg)
 
+### TFT Display
+The radio is using a small 2.2' SPI Display. This unit dies also have a SC card slot which we do not use here. For my Yamaha case I hd to replace the strait terminals with 90 degree terminals because they did not fit underneath the circuit board. In general there are many displays you can use please check [the following link](https://github.com/notro/fbtft/wiki) for Displays which are supported by the raspbian kernel. You can get these mostly on eBay or AliExpress for less than 10$. The page also has many useful information how to set it up and how to test it.
+[2.2 inch 2.2" SPI TFT LCD Display module 240x320 ILI9341 51/AVR/STM32/ARM/PIC](http://www.ebay.com/itm/2-2-inch-2-2-SPI-TFT-LCD-Display-module-240x320-ILI9341-51-AVR-STM32-ARM-PIC-/311569442127?hash=item488afc654f:g:B2oAAOSwT5tWPHt7)
+![tft display](https://github.com/thk4711/raspiradio/blob/master/Images/tft-display.jpg)
+
+### WiFi antenna extension
+Since I am using a metal case for the radio a antenna within that case would be not a good idea. I am using the above mentioned USB WiFi adapter which dies allow the connection of this extension cable, that is mounted into a hole in the back of the case. The antenna itself can be reused there. [WiFi Antenna EXTENSION Cable/Lead Wireless RP SMA male to female 4 in to 10 feet](http://www.ebay.com/itm/WiFi-Antenna-EXTENSION-Cable-Lead-Wireless-RP-SMA-male-to-female-4-in-to-10-feet-/162073692670?var=&hash=item25bc5849fe:m:mWh-vrnI_sL20h2vfbIT3YQ)
+![antenna cable](https://github.com/thk4711/raspiradio/blob/master/Images/antenna-cable.jpg)
+
 ### Power Supply
 When I started that project I was not aware that this actually was the most complicated part of the Hardware design. 
 
