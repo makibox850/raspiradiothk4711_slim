@@ -1,5 +1,5 @@
 ### Raspberry PI:
-Everything in this Radio is controlled by a raspberry pi. Actually every model should be working. I have tested it on a Raspberry PI 2, a Raspberry PI 3 and a Raspberry Pi Zero. But also older models should be OK. 
+Everything in this Radio is controlled by a raspberry pi. Actually every model should be working. I have tested it on a Raspberry PI 2, a Raspberry PI 3 and a Raspberry Pi Zero. But also older models should be OK. Just be aware that the I2S audio output will be different on old Raspberry Pi models.
 
 ### SD Card:
 Since we do not need a full blown GUI a minimal Raspbian image would be good enough. For that anything with a size of 2GB or greater would be OK. If you are concerned about boot speed and reliability I do recommend to use SanDisk Extreme or Samsung PRO cards. Cheep cards tend to fail and often are very slow.
@@ -22,5 +22,10 @@ If you are not planning to use a case like I did you might not need this.
 ![ADS1115](https://github.com/thk4711/raspiradio/blob/master/Images/ads1115.jpg)
 
 ### IR Receiver
-If you want to use a IR Remote you need a IR reviver. Just look at ebay for something like this: [ IR Receiver Module 38 kHz TSOP4838 ](http://www.ebay.com/itm/IR-Receiver-Infrared-Radiation-Module-38-kHz-Remote-TSOP4838-DIP-3-/222087090405?hash=item33b56c10e5:g:kFgAAOSwD0lUcF9g) 
+If you want to use a IR Remote you need a IR reviver. Just look at eBay for something like this: [ IR Receiver Module 38 kHz TSOP4838 ](http://www.ebay.com/itm/IR-Receiver-Infrared-Radiation-Module-38-kHz-Remote-TSOP4838-DIP-3-/222087090405?hash=item33b56c10e5:g:kFgAAOSwD0lUcF9g) 
 ![IR](https://github.com/thk4711/raspiradio/blob/master/Images/ir-receiver.jpg)
+
+### Power Supply
+When I started that project I was not aware that this actually was the most complicated part of the Hardware design. 
+
+
