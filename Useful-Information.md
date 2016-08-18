@@ -1,1 +1,3 @@
-Raspi GPIO Overview
+## Raspi GPIO Overview
+
+### RASPi GPIO Pins
