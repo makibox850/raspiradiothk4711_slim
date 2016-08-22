@@ -1,6 +1,9 @@
 
 
+[Raspberry Infrared (LIRC)](#Infrared)
 [See the latest questions](#latest)
+
+
 
 ## Raspi GPIO Overview
 
@@ -10,7 +13,7 @@
 ![GPIO PINS](https://github.com/thk4711/raspiradio/blob/master/Images/GPIO-BCM-WIRING.png)
 
 
-## Latest
+## Latest Control
 
 - this is a test
 - if that is working or not
