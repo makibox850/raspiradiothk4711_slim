@@ -1,6 +1,6 @@
 
 
-[CONTRIBUTE](.#4---contribute)
+[foo](#CONTRIBUTE)
 
 ## Raspi GPIO Overview
 
@@ -10,6 +10,6 @@
 ![GPIO PINS](https://github.com/thk4711/raspiradio/blob/master/Images/GPIO-BCM-WIRING.png)
 
 
-### 4 - CONTRIBUTE
+### CONTRIBUTE
 - this is a test
 - if that is working or not
