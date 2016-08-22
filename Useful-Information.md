@@ -1,5 +1,5 @@
 
-[create an anchor](#anchors-in-markdown)
+### 4 - CONTRIBUTE
 
 ## Raspi GPIO Overview
 
@@ -9,6 +9,6 @@
 ![GPIO PINS](https://github.com/thk4711/raspiradio/blob/master/Images/GPIO-BCM-WIRING.png)
 
 
-Klong (#some-markdown-heading)
+[CONTRIBUTE](.#4---contribute)
 - this is a test
 - if that is working or not
