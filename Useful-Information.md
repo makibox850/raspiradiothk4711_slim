@@ -1,5 +1,5 @@
 
-Take me to [contact](#contact_form)
+[create an anchor](#anchors-in-markdown)
 
 ## Raspi GPIO Overview
 
@@ -9,6 +9,6 @@ Take me to [contact](#contact_form)
 ![GPIO PINS](https://github.com/thk4711/raspiradio/blob/master/Images/GPIO-BCM-WIRING.png)
 
 
-### <a id="contact_form"></a>Contact form
+(#some-markdown-heading)
 - this is a test
 - if that is working or not
