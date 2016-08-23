@@ -1,9 +1,16 @@
 
 
 [Raspberry Infrared (LIRC)](#Infrared)
-[See the latest questions](#latest)
-
-
+[I2S Audio](#I2S)
+[TDA1543 DAC](#TDA1543)
+[SD Card Overclocking](#SDCARD)
+[Frame buffer display](#Framebuffer)
+[Rotary Encoder Python](#Encoder)
+[GPIO Python](#GPIO)
+[MPD Python](#MPD)
+[Airplay](#Airplay)
+[Spotify Connect](#Spotify)
+[Python UI](#UI)
 
 ## Raspi GPIO Overview
 
@@ -13,7 +20,7 @@
 ![GPIO PINS](https://github.com/thk4711/raspiradio/blob/master/Images/GPIO-BCM-WIRING.png)
 
 
-## Latest Control
+## UI
 
 - this is a test
 - if that is working or not
