@@ -10,7 +10,7 @@
 [MPD Python](#MPD)<br>
 [Airplay](#Airplay)<br>
 [Spotify Connect](#Spotify)<br>
-[Python UI](#UI)<br>
+[Python UI](#ui)<br>
 
 ## Raspi GPIO Overview
 
