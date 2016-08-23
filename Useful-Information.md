@@ -1,7 +1,9 @@
 
 
 [Raspberry Infrared (LIRC)](#Infrared)
+
 [I2S Audio](#I2S)
+
 [TDA1543 DAC](#TDA1543)
 [SD Card Overclocking](#SDCARD)
 [Frame buffer display](#Framebuffer)
