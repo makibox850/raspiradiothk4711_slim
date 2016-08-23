@@ -1,16 +1,16 @@
 
 
 [Raspberry Infrared (LIRC)](#Infrared)<br>
-[I2S Audio](#I2S) 
-[TDA1543 DAC](#TDA1543) 
-[SD Card Overclocking](#SDCARD) 
-[Frame buffer display](#Framebuffer)
-[Rotary Encoder Python](#Encoder)
-[GPIO Python](#GPIO)
-[MPD Python](#MPD)
-[Airplay](#Airplay)
-[Spotify Connect](#Spotify)
-[Python UI](#UI)
+[I2S Audio](#I2S)<br>
+[TDA1543 DAC](#TDA1543)<br> 
+[SD Card Overclocking](#SDCARD)<br> 
+[Frame buffer display](#Framebuffer)<br>
+[Rotary Encoder Python](#Encoder)<br>
+[GPIO Python](#GPIO)<br>
+[MPD Python](#MPD)<br>
+[Airplay](#Airplay)<br>
+[Spotify Connect](#Spotify)<br>
+[Python UI](#UI)<br>
 
 ## Raspi GPIO Overview
 
