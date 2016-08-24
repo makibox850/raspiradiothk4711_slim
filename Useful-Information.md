@@ -1,6 +1,6 @@
 
 
-[Raspberry Infrared (LIRC)](#Infrared)<br>
+[Raspberry Infrared (LIRC)](#infrared)<br>
 [I2S Audio](#I2S)<br>
 [TDA1543 DAC](#TDA1543)<br> 
 [SD Card Overclocking](#SDCARD)<br> 
@@ -19,6 +19,7 @@
 
 ![GPIO PINS](https://github.com/thk4711/raspiradio/blob/master/Images/GPIO-BCM-WIRING.png)
 
+## Infrared remote control with LIRC
 
 ## UI
 
