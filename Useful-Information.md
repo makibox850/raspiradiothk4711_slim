@@ -35,11 +35,11 @@
 
 ## MPD Python
 
-## Airplay
+### Airplay
 
-## Spotify Connect
+### Spotify Connect
 
-## Python UI
+### Python UI
 
 - this is a test
 - if that is working or not
