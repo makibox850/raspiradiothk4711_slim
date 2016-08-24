@@ -1,16 +1,16 @@
 
 
 [Raspberry Infrared (LIRC)](#infrared-remote-control-with-lirc)<br>
-[I2S Audio](#I2S)<br>
-[TDA1543 DAC](#TDA1543)<br> 
-[SD Card Overclocking](#SDCARD)<br> 
-[Frame buffer display](#Framebuffer)<br>
-[Rotary Encoder Python](#Encoder)<br>
-[GPIO Python](#GPIO)<br>
-[MPD Python](#MPD)<br>
-[Airplay](#Airplay)<br>
-[Spotify Connect](#Spotify)<br>
-[Python UI](#ui)<br>
+[I2S Audio](#i2s-audio)<br>
+[TDA1543 DAC](#tda1543-dac)<br> 
+[SD Card Overclocking](#sd-card-verclocking)<br> 
+[Frame buffer display](#frame-buffer-display)<br>
+[Rotary Encoder Python](#rotary-encoder-python)<br>
+[GPIO Python](#gpio-python)<br>
+[MPD Python](#mpd-python)<br>
+[Airplay](#airplay)<br>
+[Spotify Connect](#spotify-connect)<br>
+[Python UI](#python-ui)<br>
 
 ## Raspi GPIO Overview
 
@@ -21,7 +21,25 @@
 
 ## Infrared remote control with LIRC
 
-## UI
+## I2S Audio
+
+## TDA1543 DAC
+
+## SD Card Overclocking
+
+## Frame buffer display
+
+## Rotary Encoder Python
+
+## GPIO Python
+
+## MPD Python
+
+## Airplay
+
+## Spotify Connect
+
+## Python UI
 
 - this is a test
 - if that is working or not
