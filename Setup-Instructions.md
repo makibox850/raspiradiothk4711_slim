@@ -1,9 +1,17 @@
 # Installation Notes
 
+[Install basic packages](#basic-packages)
+[Install LIRC](#install-lirc)
+[Python libs for GPIO SPI and I2C](#python-libs-for-gpio-spi-and-i2c)
+### Basic Packages
 - apt-get install git
-- apt-get install lirc
 - apt-get install python-pip
 - apt-get install python-setuptools python-dev
+
+### Install LIRC
+- apt-get install lirc
+
+### Python libs for GPIO SPI and I2C
 - pip install WiringPi2
 - pip install spidev
 - git clone https://github.com/guyc/py-gaugette
