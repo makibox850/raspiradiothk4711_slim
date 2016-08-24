@@ -15,13 +15,27 @@
 ### Python libs for GPIO SPI and I2C
 - pip install WiringPi2
 - pip install spidev
+- apt-get install i2c-tools
+- apt-get install python-smbus
+- apt-get install libi2c-dev
+
+
+### Python support for rotary encoder
 - git clone https://github.com/guyc/py-gaugette
 - python setup.py install
+
+### Python Input Event Interface
 - pip install evdev
+
+### MPD and python support
 - apt-get install mpd
 - apt-get install mpc
 - apt-get install python-mpd
+
+### Pygame
 - apt-get install python-pygame
+
+### Python WIFI lib
 - apt-get install libiw-dev
 - apt-get install i2c-tools
 - apt-get install python-smbus
