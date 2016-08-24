@@ -21,6 +21,10 @@
 
 ### Infrared remote control with LIRC
 
+- Hardware for LIRC and kernel konfiguration - http://aron.ws/projects/lirc_rpi/
+- LIRC on non default GPIO - http://www.forum-raspberrypi.de/Thread-lirc-auf-anderen-gpio-port-legen
+- general HOWTO - http://indibit.de/raspberry-pi-mit-apple-remotelirc-python-scripte-steuern/
+
 ### I2S Audio
 
 ### TDA1543 DAC
