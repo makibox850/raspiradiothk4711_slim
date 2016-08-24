@@ -1,6 +1,6 @@
 
 
-[Raspberry Infrared (LIRC)](#infrared)<br>
+[Raspberry Infrared (LIRC)](#infrared-remote-control-with-lirc)<br>
 [I2S Audio](#I2S)<br>
 [TDA1543 DAC](#TDA1543)<br> 
 [SD Card Overclocking](#SDCARD)<br> 
