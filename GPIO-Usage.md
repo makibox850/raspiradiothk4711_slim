@@ -6,7 +6,7 @@
 |   3         | I2C SCL             |                      |
 |   4         | encoder switch      |    unused in Yamaha  |
 |   5         | unused              |                      |
-|   6         | unused              |                      |
+|   6         | shutdown indicator  |                      |
 |   7         | SPI_CE1             |    free              |
 |   8         | SPI_CE0             |    Display           |
 |   9         | SPI_MISO            |    Display           |
