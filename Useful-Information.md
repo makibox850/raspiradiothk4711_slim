@@ -3,7 +3,7 @@
 [Raspberry Infrared (LIRC)](#infrared-remote-control-with-lirc)<br>
 [I2S Audio](#i2s-audio)<br>
 [TDA1543 DAC](#tda1543-dac)<br> 
-[SD Card Overclocking](#sd-card-verclocking)<br> 
+[SD Card Overclocking](#sd-card-overclocking)<br> 
 [Frame buffer display](#frame-buffer-display)<br>
 [Rotary Encoder Python](#rotary-encoder-python)<br>
 [GPIO Python](#gpio-python)<br>
