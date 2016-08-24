@@ -11,6 +11,7 @@
 [Airplay](#airplay)<br>
 [Spotify Connect](#spotify-connect)<br>
 [Python UI](#python-ui)<br>
+[Power Supply](#power-supply)
 
 ### Infrared remote control with LIRC
 - Hardware for LIRC and kernel konfiguration - http://aron.ws/projects/lirc_rpi/
@@ -61,6 +62,7 @@
 - https://learn.adafruit.com/raspberry-pi-pygame-ui-basics
 - http://nullege.com/codes/search/pygame.font.Font.render
 
-
-- this is a test
-- if that is working or not
+### Power Supply
+- http://www.wenzel.com/documents/finesse.html
+- http://www.analog.com/library/analogdialogue/archives/46-06/staying_well_grounded.html
+- https://embeddedcode.wordpress.com/2013/10/18/adding-a-shutdown-button-to-the-raspberry-pi/
