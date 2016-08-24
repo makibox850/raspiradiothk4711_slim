@@ -12,26 +12,26 @@
 [Spotify Connect](#spotify-connect)<br>
 [Python UI](#python-ui)<br>
 
-## Raspi GPIO Overview
+### Raspi GPIO Overview
 
 ### RASPi GPIO Pins
 ![GPIO PINS](https://github.com/thk4711/raspiradio/blob/master/Images/GPIOPINS-RPI.jpg)
 
 ![GPIO PINS](https://github.com/thk4711/raspiradio/blob/master/Images/GPIO-BCM-WIRING.png)
 
-## Infrared remote control with LIRC
+### Infrared remote control with LIRC
 
-## I2S Audio
+### I2S Audio
 
 ## TDA1543 DAC
 
-## SD Card Overclocking
+### SD Card Overclocking
 
-## Frame buffer display
+### Frame buffer display
 
-## Rotary Encoder Python
+### Rotary Encoder Python
 
-## GPIO Python
+### GPIO Python
 
 ## MPD Python
 
