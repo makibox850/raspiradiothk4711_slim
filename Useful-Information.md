@@ -23,7 +23,7 @@
 
 ### I2S Audio
 
-## TDA1543 DAC
+### TDA1543 DAC
 
 ### SD Card Overclocking
 
@@ -33,7 +33,7 @@
 
 ### GPIO Python
 
-## MPD Python
+### MPD Python
 
 ### Airplay
 
