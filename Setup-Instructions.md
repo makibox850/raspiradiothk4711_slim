@@ -1,8 +1,5 @@
 # Installation Notes
 
-[Install basic packages](#basic-packages)<br>
-[Install LIRC](#install-lirc)<br>
-[Python libs for GPIO SPI and I2C](#python-libs-for-gpio-spi-and-i2c)<br>
 [Basic Packages](#basic-packages)<br>
 [Install LIRC](#install-lirc)<br>
 [Python libs for GPIO SPI and I2C](#python-libs-for-gpio-spi-and-i2c)<br>
