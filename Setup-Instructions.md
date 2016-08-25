@@ -13,9 +13,11 @@
 [Shairport](#shairport)<br>
 
 ### Basic Packages
-- apt-get install git
-- apt-get install python-pip
-- apt-get install python-setuptools python-dev
+```
+apt-get install git
+apt-get install python-pip
+apt-get install python-setuptools python-dev
+```
 
 ### Install LIRC
 - apt-get install lirc
