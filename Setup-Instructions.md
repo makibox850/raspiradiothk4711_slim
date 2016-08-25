@@ -11,6 +11,7 @@
 [Systemd Python](#systemd-python)<br>
 [SPI Display](#spi-display)<br>
 [Shairport](#shairport)<br>
+[Bootsplash](#bootsplash)<br>
 
 ### Basic Packages
 ```
@@ -93,4 +94,9 @@ cp scripts/debian/init.d/shairport /etc/init.d/
 cp scripts/debian/default/shairport /etc/default/
 systemctl enable shairport
 systemctl start shairport
+```
+
+### Bootsplash
+```
+apt-get install fbi
 ```
