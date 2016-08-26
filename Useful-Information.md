@@ -17,10 +17,14 @@
 - Hardware for LIRC and kernel konfiguration - http://aron.ws/projects/lirc_rpi/
 - LIRC on non default GPIO - http://www.forum-raspberrypi.de/Thread-lirc-auf-anderen-gpio-port-legen
 - general HOWTO - http://indibit.de/raspberry-pi-mit-apple-remotelirc-python-scripte-steuern/
+- general lirc setup: http://aron.ws/projects/lirc_rpi/
 
 ### I2S Audio
 - http://www.dimdim.gr/2014/12/the-rasberry-pi-audio-out-through-i2s/
 - http://www.runeaudio.com/forum/i2s-connection-to-an-external-dac-t1337.html
+- /boot/config.txt overlay: http://www.runeaudio.com/forum/audiophonics-dac-sabre-es9023-i2s-24bit-192-raspberry-pi-t1155-10.html
+- wiring b+, PI2/3: http://www.pagemac.com/projects/i2s_amp
+- wiring ald raspi: http://www.tjaekel.com/T-DAC/pictures/Rpi_P5_I2S_small.png
 
 ### TDA1543 DAC
 - simple schematics - http://www.pavouk.org/hw/modulardac/en_tda1543.html
