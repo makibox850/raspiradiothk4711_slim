@@ -1,6 +1,6 @@
 When I started the project my plan for the power supply was to use a 12V 5A switching power supply and 2 step down modules from eBay to generate the 5V for the raspi and the 7V for the analog board. Unfortunately that was not a good idea. With this configuration I was not able to get a good audio signal. There was always "digital" noise in the audio path. 
 
-After reading a lot (please also see the [Useful information](Useful-Information#power-supply) about that topic I found that the problem is mostly caused by the fact that the digital components generate noise in the analog part because the current of all components did have a common ground. And where current is there is also a voltage drop. And even if it is very low - you can here it.
+After reading a lot (please also see the [Useful information](useful-information#power-supply) about that topic I found that the problem is mostly caused by the fact that the digital components generate noise in the analog part because the current of all components did have a common ground. And where current is there is also a voltage drop. And even if it is very low - you can here it.
 
 So after all I ended up with a much more complex power supply than I wanted to have. In fact the power supply turned out to be the most difficult part of the device.
 
