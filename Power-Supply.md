@@ -44,6 +44,6 @@ This board is a little bit a add-on to the project which makes it more convenien
 - The relay controlling the 240V of the 12V transformer for the power amplifier will switch off.
 - One output of the controller is going from high to low. It is connected to a GPIO input of the raspberry. There a software is running, which will detect this and gracefully shut down the Raspberry Pi.
 - After 10s the power to the raspberry and the sound control board will be shut down as well. This is enough time for the Raspberry to shut down.
- 
-- 
+
+[https://github.com/thk4711/raspiradio/blob/master/schematics/power-control-board.png](schematic power control board)
   
