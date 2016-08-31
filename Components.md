@@ -46,3 +46,8 @@ For the audio board there is a [separate page](https://github.com/thk4711/raspir
 The power amplifier is a call D type device using a TPA3116 chip. There are many different boards available from what I have read the ["blue one"](http://www.ebay.com/itm/New-TPA3116-Inductor-Famous-Circuit-Design-Class-D-Digital-Power-Amplifier-Board/291095417897?_trksid=p2047675.c100005.m1851&_trkparms=aid%3D222007%26algo%3DSIC.MBE%26ao%3D1%26asc%3D37570%26meid%3Da4652b86395c484c97e1a0eb15f45410%26pid%3D100005%26rk%3D2%26rkt%3D6%26sd%3D272357089296) ist the best one. It ist rated at 2x50W. Since it is class D it is very efficient. The sound quality is also surprisingly good if you consider the price.
 
 ![Power Amplifier](https://github.com/thk4711/raspiradio/blob/master/Images/TPA3116.jpg)
+
+### USB DAC
+This board is used as an USB based input for a PC or MAC. I am using [a very simple board](http://www.ebay.com/itm/PCM2704-USB-DAC-USB-Power-Sound-Card-Decoding-Deck-/291664294897?hash=item43e88bf3f1:g:2VUAAOSw1KxXNTPo) based on the PCM2704 chip. It does not sound great but I had it already. May be I will replace it later with a better one.
+
+![PCM2704](https://github.com/thk4711/raspiradio/blob/master/Images/pcm2704_usb.jpg)
