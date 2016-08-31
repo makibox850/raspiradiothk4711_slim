@@ -31,9 +31,13 @@ The radio is using a small 2.2' SPI Display. This unit dies also have a SC card 
 ![tft display](https://github.com/thk4711/raspiradio/blob/master/Images/tft-display.jpg)
 
 ### WiFi antenna extension
-Since I am using a metal case for the radio a antenna within that case would be not a good idea. I am using the above mentioned USB WiFi adapter which dies allow the connection of this extension cable, that is mounted into a hole in the back of the case. The antenna itself can be reused there. [WiFi Antenna EXTENSION Cable/Lead Wireless RP SMA male to female 4 in to 10 feet](http://www.ebay.com/itm/WiFi-Antenna-EXTENSION-Cable-Lead-Wireless-RP-SMA-male-to-female-4-in-to-10-feet-/162073692670?var=&hash=item25bc5849fe:m:mWh-vrnI_sL20h2vfbIT3YQ)
+Since I am using a metal case for the radio a antenna within that case would be not a good idea. I am using the above mentioned USB WiFi adapter which dies allow the connection of this extension cable, that is mounted into a hole in the back of the case. The antenna itself can be reused there. 
+[WiFi Antenna EXTENSION Cable/Lead Wireless RP SMA male to female 4 in to 10 feet](http://www.ebay.com/itm/WiFi-Antenna-EXTENSION-Cable-Lead-Wireless-RP-SMA-male-to-female-4-in-to-10-feet-/162073692670?var=&hash=item25bc5849fe:m:mWh-vrnI_sL20h2vfbIT3YQ)
+
 ![antenna cable](https://github.com/thk4711/raspiradio/blob/master/Images/antenna-cable.jpg)
 
 ### Power Supply
 For the power supply there is a [separate page](https://github.com/thk4711/raspiradio/wiki/Power-Supply).
 
+### Audio Board
+For the audio board there is a [separate page](https://github.com/thk4711/raspiradio/wiki/Audio-Board).
