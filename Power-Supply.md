@@ -14,7 +14,7 @@ For audio applications traditional transformers and linear regulators perform be
 
 ### Power Supply Board
 On the power supply board there ist the print mounted 2x7V transformer. On of the windings is rectified and 
-smoothened with a 4700uF capacitor. The resulting 9V are then reduced to 5V with a LM2596 based voltage regulator. This voltage is used to power the Raspberry Pi and all other digital components.
+smoothened with a 4700uF capacitor. The resulting 9V are then reduced to 5V with a [LM2596 based voltage regulator](http://www.ebay.com/itm/1pcs-1-23V-30V-DC-DC-Buck-Converter-Step-Down-Module-LM2596-Power-Supply-Output-/400985220074?hash=item5d5c94e3ea:g:o10AAOxy0x1TVSpD). This voltage is used to power the Raspberry Pi and all other digital components.
 
 ![LM2596](https://github.com/thk4711/raspiradio/blob/master/Images/lm2596.jpg)
 
@@ -22,7 +22,7 @@ The voltage from the 12V transformer is rectified and smoothened with 2 4700uF c
 ![power-supply-board](https://github.com/thk4711/raspiradio/blob/master/schematics/power-supply-board.png)
 
 ### Low Noise Power Supply
-The analog part of the device the DAC and the volume/tone control are most sensitive to noise introduced by the power supply. The sound quality suffers a lot if there is a problem. To get the necessary quality I am using a board from eBay which does a good job here by using things like high-speed rectifiers, π-type filter circuit, and a LT1084 low dropout voltage regulator.
+The analog part of the device the DAC and the volume/tone control are most sensitive to noise introduced by the power supply. The sound quality suffers a lot if there is a problem. To get the necessary quality I am using [a board from eBay](http://www.ebay.com/itm/12V-24V-Low-Noise-LT1084-Regulator-Power-Supply-Board-for-Tube-AMP-Filament-DAC-/131768499444?hash=item1eae03bcf4:g:MWMAAOSwsN9W~kM8) which does a good job here by using things like high-speed rectifiers, π-type filter circuit, and a LT1084 low dropout voltage regulator.
 
 ![LOW-noise-power-supply](https://github.com/thk4711/raspiradio/blob/master/Images/LOW-Noise-Power.jpeg)
 
