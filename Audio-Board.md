@@ -4,9 +4,9 @@ Besides the power supply - the audio board was the only component I put together
 - Switch between the input sources (Raspberry, AUX, USB)
 - Volume and tone control (Treble, Middle, Bass)
 
-All functions are controlled using the I2C bus. 
+All functions are controlled using the I2C bus. Because the I2C interface is not working correctly at 3.3V logic there is a level shift module on the board to push the levels to 5V.
 
-![https://github.com/thk4711/raspiradio/blob/master/schematics/audio-board.png](audio control board)
+![audio control board](https://github.com/thk4711/raspiradio/blob/master/schematics/audio-board.png)
 
 ### I2S DAC
 The analog audio output of the Raspberry Pi is known to deliver a very low audio quality. To overcome this there is a way to configure some IO pins as a I2S audio interface. I2S is a protocol developed by Philips in the late 80th to deliver digital sound date between chips. There are a lot of chips available, which do convert this data stream into analog audio. For the raspberry PI there are several board available which do exactly this. They mostly do use more or less current so called over sampling DAC chips. The audio quality is mostly very good and there is nothing wrong using one of these. But I decided to use a very old Phillips Chip - TDA1543. I used to have a CD player many years ago which was using exactly this DAC. I always liked the sound of it. It sound a little more "analog" than the modern chips. This particular chip is a so called non oversampling DAC (NOS). It requires only a couple of external components and does come in a DIP package, which is very convenient for DIY projects.
