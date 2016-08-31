@@ -35,6 +35,5 @@ Since I am using a metal case for the radio a antenna within that case would be 
 ![antenna cable](https://github.com/thk4711/raspiradio/blob/master/Images/antenna-cable.jpg)
 
 ### Power Supply
-When I started that project I was not aware that this actually was the most complicated part of the Hardware design. 
-
+For the power supply there is a [separate page](https://github.com/thk4711/raspiradio/wiki/Power-Supply).
 
