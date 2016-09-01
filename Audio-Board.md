@@ -1,3 +1,4 @@
+![Audio_Board](https://github.com/thk4711/raspiradio/blob/master/Images/Audio_bord.jpg)
 Besides the power supply - the audio board was the only component I put together myself. It has 3 main functions:
 
 - I2S DAC (Digital Analog Converter) 
