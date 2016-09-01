@@ -9,3 +9,5 @@ The original VFT display was not usable - so I removed it from the board and rep
 The back panel of the yamaha tuner also had to be replaced because I needed different connectors. That was easy because the old one was attached just with 2 screws.
 ![client_back](https://github.com/thk4711/raspiradio/blob/master/Images/Client_open_back.jpg)
 After everything is put together and the cover is closed it basically still looks the same like before. It just serves a entirely different purpose.
+
+![top_view](https://github.com/thk4711/raspiradio/blob/master/Images/Client_open_top.jpg)
