@@ -13,8 +13,19 @@
 [Shairport](#shairport)<br>
 [Bootsplash](#bootsplash)<br>
 
+create a install directory cd into it
+```
+mkdir /install
+cd /install
+```
+
 ### Basic Packages
 ```
+apt-get update
+apt-get upgrade
+apt-get install rpi-update
+rpi-update
+reboot
 apt-get install git
 apt-get install python-pip
 apt-get install python-setuptools python-dev
@@ -36,7 +47,9 @@ apt-get install libi2c-dev
 
 ### Python support for rotary encoder
 ```
+cd /install
 git clone https://github.com/guyc/py-gaugette
+cd py-gaugette/
 python setup.py install
 ```
 
@@ -65,11 +78,15 @@ pip install iwlib
 
 ### Systemd Python
 ```
+cd /install
 apt-get install libsystemd-dev
 git clone https://github.com/systemd/python-systemd
+cd python-systemd/
 python setup.py install
 apt-get install python-dbus
+cd /install
 git clone https://github.com/abn/python-systemd-dbus
+cd python-systemd-dbus/
 python setup.py install
 ```
 
@@ -84,6 +101,7 @@ con2fbmap 1 1
 
 ### Shairport
 ```
+cd /install
 apt-get install libssl-dev libavahi-client-dev libasound2-dev avahi-daemon
 git clone https://github.com/abrasive/shairport.git
 cd shairport
@@ -92,8 +110,6 @@ make
 make install
 cp scripts/debian/init.d/shairport /etc/init.d/
 cp scripts/debian/default/shairport /etc/default/
-systemctl enable shairport
-systemctl start shairport
 ```
 
 ### Bootsplash
