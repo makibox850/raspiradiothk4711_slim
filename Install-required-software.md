@@ -1,5 +1,3 @@
-# Installation Notes
-
 [First Steps](#first-steps)<br>
 [Basic Packages](#basic-packages)<br>
 [Install LIRC](#install-lirc)<br>
