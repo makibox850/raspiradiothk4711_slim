@@ -1,5 +1,6 @@
 # Installation Notes
 
+[First Steps](#first-steps)<br>
 [Basic Packages](#basic-packages)<br>
 [Install LIRC](#install-lirc)<br>
 [Python libs for GPIO SPI and I2C](#python-libs-for-gpio-spi-and-i2c)<br>
@@ -13,19 +14,23 @@
 [Shairport](#shairport)<br>
 [Bootsplash](#bootsplash)<br>
 
-create a install directory cd into it
+### First steps
+- Start with a RASPBIAN JESSIE LITE image from the [Raspbian download page](https://www.raspberrypi.org/downloads/raspbian/)
+- create a install directory cd into it
 ```
 mkdir /install
 cd /install
 ```
-
-### Basic Packages
+- Bring everything up to date
 ```
 apt-get update
 apt-get upgrade
 apt-get install rpi-update
 rpi-update
 reboot
+```
+### Basic Packages
+```
 apt-get install git
 apt-get install python-pip
 apt-get install python-setuptools python-dev
