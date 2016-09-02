@@ -14,8 +14,9 @@
 
 ### First steps
 - Start with a RASPBIAN JESSIE LITE image from the [Raspbian download page](https://www.raspberrypi.org/downloads/raspbian/)
-- use raspi-config to set hostname, timezone and local settings. Also enable i2c and spi interfaces.   
-- create a install directory cd into it
+- use raspi-config to set hostname, timezone and local settings. Also enable i2c and spi interfaces.
+- configure the network 
+- create a install directory and cd into it
 ```
 mkdir /install
 cd /install
