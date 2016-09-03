@@ -2,7 +2,14 @@ The software is still under development and not perfect at all. That's why there
 [useful information page](https://github.com/thk4711/raspiradio/wiki/Useful-Information).
 ___
 
+[Configure SPI frame buffer](#configure-spi-frame-buffer)<br>
+[Setup the I2S sound output](#setup-the-i2s-sound-output)<br>
+[Configure lirc](#configure-lirc)<br>
 [Clone the git repository](#clone-the-git-repository)<br>
+[Create your playlist](#create-your-playlist)<br>
+[Create shutdown systemd service](#create-shutdown-systemd-service)<br>
+[Create bootsplash systemd service](#create-bootsplash-systemd-service)<br>
+[Create radio systemd service](#create-radio-systemd-service)<br>
 
 ### Configure SPI frame buffer
 Raspbian does support a lot of small mostly SPI based displays which are available on eBay for little money. Please have a look at the [project Wiki](https://github.com/notro/fbtft/wiki).
@@ -80,7 +87,7 @@ git clone https://github.com/thk4711/raspiradio
 The mpd software, which is used to play the internet radio stations, needs a playlist file in the m3u format. The file has to be /var/lib/mpd/playlists/radio.m3u
 An example is in /install/raspiradio/os-files/var/lib/mpd/playlists/radio.m3u
 
-### Create shutdown systemd services
+### Create shutdown systemd service
 If you want to shutdown the raspberry with a signal on a GPIO pin you need to enable this service. If you do not intend to do this you can skip this step. 
 ```
 cp /install/raspiradio/os-files/etc/systemd/system/radio-shutdown.service /etc/systemd/system/
@@ -88,7 +95,7 @@ systemctl enable radio-shutdown
 systemctl start radio-shutdown
 ```
 
-### Create bootsplash systemd services
+### Create bootsplash systemd service
 This service will show the Raspberry Pi logo as early as possible in the boot process. The image which is shown is located at /install/raspiradio/Images/raspilogo.jpg
 ```
 cp /install/raspiradio/os-files/etc/systemd/system/bootsplash.service /etc/systemd/system/
@@ -97,7 +104,7 @@ systemctl enable bootsplash
 If you want a different logo you can create a jpeg image at the resolution of the TFT display (320x240 in my case).
 You have to edit the /etc/systemd/system/bootsplash.service file to display your own image.
 
-### Create radio systemd services
+### Create radio systemd service
 This service will run the actual radio software. If it should crash it will be automatically restarted.
 ```
 cp /install/raspiradio/os-files/etc/systemd/system/radio.service /etc/systemd/system/
