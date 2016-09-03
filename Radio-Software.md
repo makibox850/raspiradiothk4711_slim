@@ -3,7 +3,7 @@
 [Audio lib](#audio-lib)<br>
 [Input lib](#input-lib)<br>
 [Other services](#other-services)<br>
-[Shutdow service](#shutdown-service)
+[Shutdown service](#shutdown-service)
 
 ### General
 The software is completely written in python because the on Raspbian it seems to be the programming language which has the best documentation how to interact with the hardware. Since this is my first significant software project it is for sure not optimal. So if you identify room for improvement, let me know ;-)
@@ -42,5 +42,5 @@ Some might ask - why no bluetooth ? There are 2 reasons for that:
 - I was not able to find out how to get a bluetooth audio sink working with alsa and the current version of the bluetooth stack in Debian.
 - The audio quality of bluetooth is worse than Airplay and spotify connect.
 
-### Shutdow service
-This service is used to shut the Raspberry Pi down in a controlled manner based in a GPIO pin pulled to ground. The scrip which is doing this is at /install/raspiradio/python/shutdown.py
+### Shutdown service
+This service is used to shut the Raspberry Pi down in a controlled manner based on a GPIO pin pulled to ground. The scrip which is doing this is at /install/raspiradio/python/shutdown.py
