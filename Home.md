@@ -9,5 +9,3 @@ This wiki should help everyone who is trying to build a similar project. I want 
 If you want to see the device in action please watch the video
 
 [![Streaming Client](http://img.youtube.com/vi/7hVFVi_NzME/0.jpg)](http://www.youtube.com/watch?v=7hVFVi_NzME)
-
-<iframe width="560" height="315" src="http://www.youtube.com/embed/7hVFVi_NzME" frameborder="0" allowfullscreen></iframe><br />
