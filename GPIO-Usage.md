@@ -1,4 +1,4 @@
-# GPIO Asignment
+
 
 | GPIO Number |  Usage              | Comment              |
 |-------------|---------------------|----------------------|
