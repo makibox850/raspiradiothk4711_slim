@@ -8,4 +8,4 @@ This wiki should help everyone who is trying to build a similar project. I want 
 
 If you want to see the device in action please watch the video
 
-[![Streaming Client](http://img.youtube.com/vi/7hVFVi_NzME/0.jpg)](http://www.youtube.com/watch?v=7hVFVi_NzME)
+[![Streaming Client](https://github.com/thk4711/raspiradio/blob/master/Images/video.jpg)](http://www.youtube.com/watch?v=7hVFVi_NzME)
