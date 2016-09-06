@@ -121,3 +121,21 @@ cp scripts/debian/default/shairport /etc/default/
 ```
 apt-get install fbi
 ```
+
+### Spotify Connect
+There are several ways to get Spotify connect installed on a Raspberry PI. If you want to get the details you can have a look at the [GipHub page](https://github.com/Fornoth/spotify-connect-web) of the project.
+I decided to use the packaged release. This does nor require to install docker for the docker release. The installation from source somehow did not work for me. Here are the steps I used:
+```
+cd /install
+wget https://github.com/Fornoth/spotify-connect-web/releases/download/0.0.2-alpha/spotify-connect-web_0.0.2-alpha.tar.gz
+tar zxvf spotify-connect-web_0.0.2-alpha.tar.gz
+```
+Now there is one problem with my TDA1543 DAC. It does not have any volume control. So Spotify connect software will fail whenever it is trying to access a mixer - it's not there. I got it working by commenting out all lines in the code which do use the mixing device. To make that a bit easier I have some perl commands which have to be executed in the exact order.
+```
+cd /install/spotify-connect-web
+perl -p -i -e 's/, mixer,/, /g' connect.py
+perl -p -i -e 's/(.+volume_range)/#$1/g' console_callbacks.py connect.py
+perl -p -i -e 's/(.+mixer)/#$1/g' console_callbacks.py connect.py
+perl -p -i -e 's/(.+corected_playback_volume)/#$1/g' console_callbacks.py 
+```
+There is a drawback - the volume control inside the Spotify app does not have any effect anymore.
