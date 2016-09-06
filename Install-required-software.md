@@ -11,6 +11,7 @@
 [SPI Display](#spi-display)<br>
 [Shairport](#shairport)<br>
 [Bootsplash](#bootsplash)<br>
+[Spotify Connect](#spotify-connect)<br>
 
 ### First steps
 - Start with a RASPBIAN JESSIE LITE image from the [Raspbian download page](https://www.raspberrypi.org/downloads/raspbian/)
