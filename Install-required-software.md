@@ -144,7 +144,7 @@ There is a drawback - the volume control inside the Spotify app does not have an
 If you do not want to start the Spotify Connect with your Spotify credentials there is a way to automate that with Zeroconf.
 In order to get that working you have to install the apt-get install avahi-utils package and create a little script which is announcing the service and the starts the Spotify Connect software. Place that into /install/spotify-connect-web.
 ```
-apt-get install apt-get install avahi-utils
+apt-get install avahi-utils
 vi /install/spotify-connect-web/start_spotify.sh
 ```
 Put into the script:
