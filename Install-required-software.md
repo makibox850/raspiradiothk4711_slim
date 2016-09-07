@@ -140,3 +140,45 @@ perl -p -i -e 's/(.+mixer)/#$1/g' console_callbacks.py connect.py
 perl -p -i -e 's/(.+corected_playback_volume)/#$1/g' console_callbacks.py 
 ```
 There is a drawback - the volume control inside the Spotify app does not have any effect anymore.
+
+If you do not want to start the Spotify Connect with your Spotify credentials there is a way to automate that with Zeroconf.
+In order to get that working you have to create a little script which is announcing the service and the starts the Spotify Connect software. Place that into /install/spotify-connect-web.
+```
+vi /install/spotify-connect-web/start_spotify.sh
+```
+Put into the script:
+```
+#!/bin/bash
+cd /install/spotify-connect-web
+/usr/bin/nohup /usr/bin/avahi-publish-service raspiradio3 _spotify-connect._tcp 4000 VERSION=1.0 CPath=/login/_zeroconf &
+./spotify-connect-web --bitrate 320 --name raspiradio3
+```
+To make it work:
+```
+chmod +x 
+/install/spotify-connect-web/start_spotify.sh
+```
+Now create a systemd unit file:
+```
+vi /etc/systemd/system/spotify-connect.service
+```
+```
+[Unit]
+Description=Spotify Connect
+After=network.target
+
+[Service]
+User=root
+ExecStart=/install/spotify-connect-web/start_spotify.sh
+Restart=always
+RestartSec=10
+StartLimitInterval=30
+StartLimitBurst=20
+
+[Install]
+WantedBy=multi-user.target
+```
+And enable it:
+```
+systemctl enable spotify-connect
+```
