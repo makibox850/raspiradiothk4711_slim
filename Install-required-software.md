@@ -142,8 +142,9 @@ perl -p -i -e 's/(.+corected_playback_volume)/#$1/g' console_callbacks.py
 There is a drawback - the volume control inside the Spotify app does not have any effect anymore.
 
 If you do not want to start the Spotify Connect with your Spotify credentials there is a way to automate that with Zeroconf.
-In order to get that working you have to create a little script which is announcing the service and the starts the Spotify Connect software. Place that into /install/spotify-connect-web.
+In order to get that working you have to install the apt-get install avahi-utils package and create a little script which is announcing the service and the starts the Spotify Connect software. Place that into /install/spotify-connect-web.
 ```
+apt-get install apt-get install avahi-utils
 vi /install/spotify-connect-web/start_spotify.sh
 ```
 Put into the script:
@@ -162,6 +163,7 @@ Now create a systemd unit file:
 ```
 vi /etc/systemd/system/spotify-connect.service
 ```
+Fill it with:
 ```
 [Unit]
 Description=Spotify Connect
