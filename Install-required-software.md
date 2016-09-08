@@ -151,7 +151,7 @@ In order to get that working you have to install the apt-get install avahi-utils
 apt-get install avahi-utils
 vi /install/spotify-connect-web/start_spotify.sh
 ```
-Put into the script:
+Enter:
 ```
 #!/bin/bash
 cd /install/spotify-connect-web
@@ -167,7 +167,7 @@ Now create a systemd unit file:
 ```
 vi /etc/systemd/system/spotify-connect.service
 ```
-Fill it with:
+Contents:
 ```
 [Unit]
 Description=Spotify Connect
