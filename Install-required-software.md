@@ -155,8 +155,8 @@ Enter:
 ```
 #!/bin/bash
 cd /install/spotify-connect-web
-/usr/bin/nohup /usr/bin/avahi-publish-service raspiradio3 _spotify-connect._tcp 4000 VERSION=1.0 CPath=/login/_zeroconf &
-./spotify-connect-web --bitrate 320 --name raspiradio3
+/usr/bin/nohup /usr/bin/avahi-publish-service raspiradio _spotify-connect._tcp 4000 VERSION=1.0 CPath=/login/_zeroconf &
+./spotify-connect-web --bitrate 320 --name raspiradio
 ```
 To make it work:
 ```
